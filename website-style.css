@@ -1,0 +1,254 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./Images/belgium-1601917_1920.jpg");
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+  }
+
+#top-banner{
+    background-image: url("./Images/honeycomb-6567126_1920.jpg");
+}
+
+.header-1{
+    padding: 2px 2px 0px 2px;
+    border: solid 1px black;
+    display: inline-block;
+    background-image: url("./Images/honeycomb-6567126_1920.jpg");
+    font-weight:bolder;
+    color: black;
+
+}
+
+.social-icons{
+    margin-top: 1px;
+    display: inline-block;
+    float: right;
+    background-image: url("./Images/honeycomb-6567126_1920.jpg");
+    color: black;
+    font-size: smaller;
+    align-items: center;
+}
+
+
+#fb{
+    padding: 2px 0px 2px 2px;
+    margin-right: 5px;
+}
+
+#li{
+    padding: 2px 2px 2px 2px;
+    margin-right: 5px;
+}
+
+#share{
+    padding: 2px 2px 2px 2px;
+    margin-right: 5px;
+}
+
+a {
+    color: white;
+  }
+
+.top-nav{
+    height: 60px;
+    font-size: 22px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkolivegreen;
+    opacity: 80%;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+
+
+.title{
+    font-size: 30px;
+    width: 100%;
+    height: 100px;
+    line-height: 10px;
+    padding-left: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+    background-color: black;
+    color: lightcoral;
+    font-weight: bolder;
+    border: solid 1px black;
+}
+
+.middle-strap{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#quote-box{
+    box-sizing: border-box;
+    width: 30%;
+    height: 550px;
+    background-image: url("./Images/honeycomb-6567126_1920.jpg");
+}
+
+form {
+    box-sizing: border-box;
+    padding: 2px;
+    border-radius: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    gap: 2rem;
+  }
+
+#quote{
+    text-align: center;
+}
+
+#size{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+    height: 30px;
+    font-size: larger;
+    margin-bottom: 10px;
+    border: dotted 1px white;
+    border-radius: 0.5rem;
+    color: gray;
+}
+
+#condition{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+    height: 30px;
+    font-size: larger;
+    margin-bottom: 10px;
+    border: dotted 1px white;
+    border-radius: 0.5rem;
+    color: gray;
+}
+
+#quantity{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+    height: 30px;
+    font-size: larger;
+    margin-bottom: 10px;
+    border: dotted 1px white;
+    border-radius: 0.5rem;
+    color: gray;
+}
+
+#hire-or-buy{
+    width: 200px;
+    margin: 15px 25%;
+    text-align: center;
+    font-size: larger;
+    border-radius: 0.5rem;
+    color: gray;
+}
+
+#name{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+    height: 30px;
+    font-size: larger;
+    margin-bottom: 10px;
+    border: dotted 1px white;
+    border-radius: 0.5rem;
+    color: gray;
+}
+
+#email{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+    height: 30px;
+    font-size: larger;
+    margin-bottom: 10px;
+    border: dotted 1px white;
+    border-radius: 0.5rem;
+    color: gray;
+}
+
+#phone{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+    height: 30px;
+    font-size: larger;
+    margin-bottom: 10px;
+    border: dotted 1px white;
+    border-radius: 0.5rem;
+    color: gray;
+}
+
+#comment{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+    height: 100px;
+    font-size: larger;
+    margin-bottom: 10px;
+    border: dotted 1px white;
+    border-radius: 0.5rem;
+    color: gray;
+}
+
+#submit{
+    margin: 10px;
+    text-align: center;
+    width: 95%;
+    height: 40px;
+    background-color: darkolivegreen;
+    color: white;
+    font-size: larger;
+    font-weight:bolder;
+    border: dotted 1px darkolivegreen;
+}
+
+#phone-me{
+    background-color: darkolivegreen;
+    color: black;
+}
+
+.main-text{
+    box-sizing: border-box;
+    margin-top: 80px;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+    width: 30%;
+    height: 600px;
+    border-radius: 50px;
+    color: white
+}
+
+.whole-bottom-box{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-image: url("./Images/honeycomb-6567126_1920.jpg");
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: darkolivegreen;
+    color: white;
+}
